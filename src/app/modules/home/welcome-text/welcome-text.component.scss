@@ -1,0 +1,18 @@
+@import 'main';
+
+.welcome-text{
+    h1{
+        font-size: 81.3px;
+        font-weight: 800;
+        max-height: 110px;
+    }
+    h3{
+        font-size: 53.3px;
+        color: $primary;
+        font-weight: 700;
+    }
+    p{
+        font-size: 22.6px;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,20 @@
+@import 'main';
+
+.skills{
+    text-align: left;
+    margin: 20px 25% 10px 0px;
+    .skill-container{
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    img {
+        height: 60px;
+        width: 60px;
+    }
+    h5{
+        font-size: 14.4px;
+        font-weight: 600;
+    }
+}

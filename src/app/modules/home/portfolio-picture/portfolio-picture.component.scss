@@ -1,0 +1,27 @@
+@import 'main';
+
+.portfolio-picture{
+    position: relative;
+    padding: 30px;
+    .picture{
+        height: 30%;
+        width: 100%;
+        bottom: 0px;
+    }
+    .mail{
+        position: absolute;
+        width: 70px;
+        top: 22%;
+    }
+    .linkedIn{
+        position: absolute;
+        width: 70px;
+        top: 50%;
+    }
+    .github{
+        position: absolute;
+        width: 70px;
+        top: 50%;
+        right: 5%;
+    }
+}

@@ -1,14 +1,15 @@
-import { SidebarIcons } from "../enums/icons.enums";
+import { SidebarIconsModel } from "../model/image-assets.model";
+import { ImageAssetsConfig } from "./image-assets.config";
 
 export class SidebarConfiguration {
-    sidebarIcon : SidebarIcons = new SidebarIcons()
+    sidebarIcon : SidebarIconsModel = new ImageAssetsConfig().getSidebarIcons();
 
     sidebarTabs = [
         {
             href : '',
-            route : './about',
-            icon : this.sidebarIcon.aboutMe,
-            tabName : 'About Me'
+            route : './home',
+            icon : this.sidebarIcon.home,
+            tabName : 'Home'
         },
         {
             href : '',
@@ -33,13 +34,6 @@ export class SidebarConfiguration {
             route : './blog',
             icon : this.sidebarIcon.blog,
             tabName : 'Blog'
-        },
-        {
-            href : '',
-            route : './home',
-            icon : this.sidebarIcon.home,
-            tabName : 'Home'
         }
-
     ]
 }

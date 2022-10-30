@@ -1,0 +1,12 @@
+@import 'main';
+
+.action-buttons{
+    .resume-button{
+        @include buttonStyle('medium',$primary);
+        box-shadow: rgba(252, 166, 31, 0.3) 0px 19px 38px, rgba(252, 166, 31, 0.22) 0px 15px 12px;
+    }
+    .connect-button{
+        @include buttonStyle('medium',$info);
+        box-shadow: rgba(0, 194, 203, 0.3) 0px 19px 38px, rgba(0, 194, 203, 0.22) 0px 15px 12px;
+    }
+}
