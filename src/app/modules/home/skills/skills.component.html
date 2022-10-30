@@ -1,0 +1,8 @@
+<section class="skills row px-0">
+    <div class="column-4 px-0" *ngFor="let skill of skillsDetails;">
+        <div class="skill-container">
+            <img [src]="skill.logo" alt="logo">
+            <h5>{{skill.name}}</h5>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,17 @@
+/*
+*-------------------------------
+* Button style mixin
+*-------------------------------
+*/
+@mixin buttonStyle($type,$color){
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    @if($type == 'medium'){
+        padding: 10px 35px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 500;
+        background-color: $color;
+    }
+}

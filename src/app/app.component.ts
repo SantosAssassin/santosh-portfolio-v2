@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { SidebarConfiguration } from './modules/shared/component-config/sidebar-config';
+import { SidebarConfiguration } from './modules/shared/config/sidebar.config';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
